@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 int main(){
-    int P, I;
-    scanf("%d", &P);
-    scanf("%d", &I);
+    int Par, Impar;
+    scanf("%d", &Par);
+    scanf("%d", &Impar);
 
-    if ((P + I) % 2 == 0)
+    if ((Par + Impar) % 2 == 0)
         printf("Par\n");
     else
         printf("Impar\n");
